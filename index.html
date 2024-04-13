@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes y sensores térmicos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <h1>Imágenes y sensores térmicos</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="espectro_electromagnetico.html">El espectro electromagnético</a></li>
+                <li><a href="https://science.nasa.gov/ems/01_intro/">NASA</a></li>
+                <li><a href="https://enterprise-insights.dji.com/blog/thermal-drone-basics">DJI</a></li>
+                <li><a href="https://www.dgac.go.cr/wp-content/uploads/2023/08/Modificacion-DO-002-OPS-RPAS-4ta-edicion.pdf">DGAC</a></li>
+            </ul>
+        </nav>
+
+        <div class="separador"></div>
+        <section id="contenido">
+            <article class="articulo">
+                <h2>Imágenes térmicas en cámaras de RPAS</h2>
+                <h4>RPAS</h4>
+                <p>Un RPAS (<em>Remotely Piloted Aircraft System</em>, por sus siglas en inglés) hace referencia al concepto de una aeronave que vuela sin tripulación y que es controlada remotamente. Un vehículo aéreo no tripulado (VANT), es propiamente el vehiculo de vuelo, comúnmente conocido con el sinónimo de drone (PITRA-LanammeUCR, 2017).</p>
+                <p>Existen RPAS con caracterisiticas particulares que permiten soportar sensores especificos,  por ejemplo, los sensores térmicos integrados, que pueden medir información termográfica de objetos. Los RPAS térmicos, cuentan con un sensor denominado microbolómetro, este equipo absorbe energía infrarroja y crea un termograma basado en las mediciones. En síntesis, las cámaras térmicas constan de un objetivo especializado que permite el paso de las frecuencias infrarrojas. Por tal motivo, la cámara incluye un sensor térmico y un procesador de imágenes que se encuentran almacenados en una funda protectora. Mientras el VANT vuela, el sensor térmico de la cámara detecta longitudes de onda infrarrojas y las convierte en señales electrónicas. Después de recibir las señales, el procesador de imágenes crea el termograma o imagen termográfica, que se compone de un mapa de color que muestra diferentes valores de temperatura (DJI Enterprise, 2021).</p>
+                <h4>Imagenes térmicas</h4>
+                <p>Las cámaras térmicas miden fundamentalmente la temperatura de la superficie de un objeto y están diseñadas para detectar cambios sutiles de temperatura. Existen objetos que reflejan la radiación térmica en mayor grado que otros, las superficies no reflectantes, como el hormigón, la madera e incluso los seres humanos, tienen un alto grado de emisividad y por ello se pueden medir con mayor precisión mediante imágenes térmicas (DJI Enterprise, 2021).</p>
+                <p>Los seres humanos pueden sentir el calor, pero no pueden verlo, porque el calor ocurre en la longitud de onda infrarroja del espectro electromagnético, <em>ver Figura No. 1</em>. Las cámaras térmicas, por otro lado, capturan energía infrarroja y generan imágenes interpretables que se ajustan a la visión humana. Es importante tener en cuenta que, no todos los objetos emiten una firma de calor precisa. El grado en el que un objeto absorbe o refleja el calor se llama emisividad y varía mucho entre los objetos. Además, los objetos con alta emisividad, como la madera, se pueden detectar con facilidad con un dispositivo de imágenes térmicas, mientras que los de baja emisividad, como las baldosas, no se pueden detectar con facilidad con una cámara térmica (DJI Enterprise, 2021).</p>
+                <img src="espectro.jpg" alt="Figura No. 1">
+                <p><strong>Figura No. 1 Espectro electromagnético</strong></p>
+                <p>Fuente:<a href="https://lamonalista.com/valor-y-luz/">La Mona Lista, 2020</a></p>
+
+                <p>La radiación infrarroja es invisible al ojo humano y su rango en el espectro electromagnético se sitúa entre la luz visible y la radiación de microondas. Dentro de este amplio margen, las cámaras térmicas trabajan en un rango conocido como infrarrojo térmico, equivale aproximadamente entre los -20 ºC y 350 ºC. El microbolómetro al recibir la radiación infrarroja se calienta y cambia su resistencia eléctrica. Este cambio de resistencia se mide y se equipara a una determinada temperatura, asignado un color para cada temperatura y formando la imagen coloreada (termograma) La no uniformidad de temperaturas suelen indicar alguna falla o punto crítico, siendo este el principal objeto de estudio (Promax, 2019).</p>
+                <p>La radiación electromagnética emitida por la superficie terrestre en la región del infrarrojo térmico, típicamente se encuentra entre los 8 y 14μm. En ese intervalo se produce el 80 % de la emisividad de la superficie terrestre (Martínez-Barbáchano, 2019).</p>
+                <p>La estimación de la temperatura superficial está condicionada, principalmente, por el contenido de vapor de agua de la atmósfera (especialmente sensible en la zona intertropical) y la emisividad de la superficie estudiada. Por todo ello, una correcta estimación de la temperatura superficial implica necesariamente la consideración y corrección de estos factores (Martínez-Barbáchano, 2019).</p>
+                <p>La radiación emitida por una superficie a una determinada longitud de onda, dentro del rango infrarrojo térmico, es función no sólo de su temperatura, sino que depende también de su emisividad. Es por ello, un parámetro crítico para el estudio del balance radiativo terrestre (Martínez-Barbáchano, 2019).</p>
+            </article>
+            <article class="articulo">
+                <h2><em>Referencias</em></h2>
+<ul>
+    <li>PITRA-LanammeUCR. (2017). Vehículos aéreos no tripulados del lanammeucr: una herramienta multidisciplinaria adaptada para todo tipo de condiciones al servicio del país. Boletín Técnico, 1-2.</li>
+    <li>DJI Enterprise. (1 de Noviembre de 2021). Conceptos básicos de los drones térmicos. Obtenido de: <a href="https://enterprise-insights.dji.com/es/blog/conceptos-b%C3%A1sicos-de-drones-t%C3%A9rmicos">https://enterprise-insights.dji.com/es/blog/conceptos-b%C3%A1sicos-de-drones-t%C3%A9rmicos</a></li>
+    <li>Promax. (9 de Julio de 2019). Cámaras Termográficas: Cómo funcionan y por qué pueden ser necesarias. Obtenido de: <a href="https://www.promax.es/esp/noticias/400/camara-termografica-como-funcionan-y-por-que-pueden-ser-necesarias/#:~:text=Dentro%20de%20este%20amplio%20margen,los%20%2D20%20y%20350%20%C2%BAC">https://www.promax.es/esp/noticias/400/camara-termografica-como-funcionan-y-por-que-pueden-ser-necesarias/#:~:text=Dentro%20de%20este%20amplio%20margen,los%20%2D20%20y%20350%20%C2%BAC</a></li>
+    <li>Martínez-Barbáchano, R. (2019). Estimación de la temperatura superficial en imágenes históricas Landsat 5 mediante corrección atmosférica monocanal en el térmico para la cuenca del río Tempisque-Bebedero (Costa Rica). EUNA, 17-32.</li>
+</ul>
+</article>
+        </section>
+        
+        <aside>
+            <h2>Barra Búsqueda</h2>  
+                    <form>             
+                         <input type="text">             
+                        <input type="submit" value="Buscar">     
+                    </form>
+        </aside>
+
+        <div class="separador"></div>
+        <footer>Hecho por Saúl Rojas</footer>
+    </div>
+</body>
+</html>
