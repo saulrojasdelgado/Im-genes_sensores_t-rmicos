@@ -1,0 +1,1 @@
+# Im-genes_sensores_t-rmicos
